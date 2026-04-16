@@ -64,3 +64,15 @@
 //     return reverse * sign 
 // }
 // reverse(1232)
+// 5 Count Negative
+// function countNegative(num){
+//     let count  = 0
+//     for(let i = 0; i< num.length; i++){
+//           if(num[i] < 0){
+//             count++
+//           }  
+//     }
+//     console.log(count)
+//     return count
+// }
+// countNegative([-1,0,1,-2,3,-5,2])
