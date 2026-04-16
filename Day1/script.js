@@ -32,3 +32,35 @@
 //     return second
 // };
 // secondHighest("dfa12321afd")
+
+// # 3 Panlindrome Number
+// function palindrome(num) {
+//     if (num < 0 || (num % 10 === 0 && num !== 0)) {
+//         return false;
+//     }
+
+//     let original = num
+//     let reverse = 0
+//     for (; num > 0; num = Math.floor(num / 10)) {
+//         let digit = num % 10
+//         reverse = reverse * 10 + digit
+//     }
+//     return original === reverse
+// }
+// console.log(palindrome(-121))
+// console.log(palindrome(121));
+// console.log(palindrome(123)); 
+// 4  Reverse Integer
+
+// function  reverse(num){
+//     let sign = num < 0 ? -1 : 1
+//    num =  Math.abs(num)
+//     let reverse = 0
+//     for(;num>0; num = Math.floor(num / 10)){
+//         let digit = num % 10
+//         reverse = reverse * 10 + digit
+//     }
+//     console.log(reverse * sign )
+//     return reverse * sign 
+// }
+// reverse(1232)
