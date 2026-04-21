@@ -1,0 +1,21 @@
+# .gitignore
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# OS files
+Thumbs.db
+
+# Backup files
+*.backup
+*.bak
