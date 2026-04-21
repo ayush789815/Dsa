@@ -142,7 +142,7 @@
 //  }
 
 //  sortArray([5,2,3,1])
-
+// # 10 Power
 function power(num){
     if(num<=0) return false
     while(num % 2 == 0){
